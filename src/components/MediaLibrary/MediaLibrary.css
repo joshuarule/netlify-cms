@@ -193,10 +193,15 @@
   border-color: var(--colorActive);
 }
 
+.nc-mediaLibrary-cardImage-container {
+  background-color: lightgrey;
+}
+
 .nc-mediaLibrary-cardImage {
   width: 100%;
   height: 160px;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
   border-radius: 2px 2px 0 0;
 }
 
